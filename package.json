@@ -1,0 +1,9 @@
+{
+    "dependencies": {
+        "concurrently": "^7.0.0"
+    },
+    "scripts": {
+        "start": "npm run dev",
+        "dev": "concurrently \"cd backend && npm run start\" \"cd angularApp && npm run start\""
+    }
+}
